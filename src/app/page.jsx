@@ -12,33 +12,34 @@ export default function page() {
         <Navbar />
       </div>
       <div className={styles.main}>
-        <div className={styles.main2}>
-          <div className={styles.main2Left}>
-            <h1>Pro anywhere</h1>
-            <p>
-              At ShopTech, we bring you the latest and greatest in electronic
-              gadgets, from cutting-edge smartphones and laptops to must-have
-              accessories and home entertainment systems. Whether you're a tech
-              enthusiast or just looking for the perfect gift, explore our
-              extensive collection of premium products, all at unbeatable
-              prices. Experience innovation at your fingertips and shop with
-              confidence today.
-            </p>
-            <button className={styles.readBtn}>Read More</button>
-            {/* <button className={styles.addBtn}>
-            <i class="fa-solid fa-cart-shopping" style={{ color: '#ffffff' }}></i> 
-              Add to cart
-              </button> */}
-          </div>
-          <div className={styles.main2Right}>
-            <Image
-              src="/images/MBPT16S-1-removebg-preview.png"
-              width={600}
-              height={600}
-              alt=""
-            />
-          </div>
-        </div>
+      <div className={styles.main2}>
+  <div className={styles.main2Left}>
+    <h1>Pro anywhere</h1>
+    <p>
+      At ShopTech, we bring you the latest and greatest in electronic
+      gadgets, from cutting-edge smartphones and laptops to must-have
+      accessories and home entertainment systems. Whether you&apos;re a tech
+      enthusiast or just looking for the perfect gift, explore our
+      extensive collection of premium products, all at unbeatable
+      prices. Experience innovation at your fingertips and shop with
+      confidence today.
+    </p>
+    <button className={styles.readBtn}>Read More</button>
+    {/* <button className={styles.addBtn}>
+    <i class="fa-solid fa-cart-shopping" style={{ color: '#ffffff' }}></i> 
+      Add to cart
+      </button> */}
+  </div>
+  <div className={styles.main2Right}>
+    <Image
+      src="/images/MBPT16S-1-removebg-preview.png"
+      width={600}
+      height={600}
+      alt=""
+    />
+  </div>
+</div>
+
         <div className={styles.categories}>
           <div className={styles.mainCategories}>
             <div>
@@ -296,7 +297,7 @@ export default function page() {
           <div className={styles.container}>
            <div className={styles.testimonial1}>
            <i class="fa-solid fa-quote-left" style={{ fontSize: '34px' }}></i>
-            <p>Shoptech has completely changed the way I shop for electronics! The website is super easy to navigate, and I love how quickly I can find what I need. The product descriptions are detailed, and the customer service is excellent. I&#39;ve purchased multiple gaming accessories, and they always arrive on time. Highly recommend it to anyone who values quality and efficiency!</p>
+            <p>Shoptech has completely changed the way I shop for electronics! The website is super easy to navigate, and I love how quickly I can find what I need. The product descriptions are detailed, and the customer service is excellent. I&apos;ve purchased multiple gaming accessories, and they always arrive on time. Highly recommend it to anyone who values quality and efficiency!</p>
             <div className={styles.rating}>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -309,7 +310,7 @@ export default function page() {
            </div>
            <div className={styles.testimonial1}>
            <i class="fa-solid fa-quote-left" style={{ fontSize: '34px' }}></i>
-            <p>Shoptech is hands down one of the best tech websites I&#39;ve come across. From the clean layout to the fast loading speeds, everything is just perfect. The product range is fantastic, and I love how easy it is to compare items before purchasing. Their customer support is quick to respond too! Can&#39;t imagine going anywhere else for my gaming gear</p>
+            <p>Shoptech is hands down one of the best tech websites I&apos;ve come across. From the clean layout to the fast loading speeds, everything is just perfect. The product range is fantastic, and I love how easy it is to compare items before purchasing. Their customer support is quick to respond too! Can&apos;t imagine going anywhere else for my gaming gear</p>
             <div className={styles.rating}>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -322,7 +323,7 @@ export default function page() {
            </div>
            <div className={styles.testimonial1}>
            <i class="fa-solid fa-quote-left" style={{ fontSize: '34px' }}></i>
-            <p>I had an amazing experience shopping on Shoptech! The website is not only visually appealing, but it&#39;s also really intuitive. I was able to find my new PS5 controller in minutes, and the checkout process was seamless. Plus, the variety of products they offer is impressive! I'll definitely be coming back for more tech accessories</p>
+            <p>I had an amazing experience shopping on Shoptech! The website is not only visually appealing, but it&apos;s also really intuitive. I was able to find my new PS5 controller in minutes, and the checkout process was seamless. Plus, the variety of products they offer is impressive! I'll definitely be coming back for more tech accessories</p>
             <div className={styles.rating}>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -336,7 +337,7 @@ export default function page() {
           </div>
         </div>
         <div>
-          {/* <Footer/> */}
+          <Footer/>
         </div>
       </div>
     </>
