@@ -1,0 +1,77 @@
+.full {
+    display: flex;
+    gap: 2em; /* Reduce the gap between the sidebar and the main content */
+    height: 100vh;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 240px; /* Fixed width for the sidebar */
+    background-color: #007bff;
+    height: 100%;
+  }
+  
+  /* Main content */
+  .mainLeft {
+    height: 90vh;
+    overflow-y: scroll;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    padding: 2em;
+    background-color: #f9f9f9; /* Optional: light background for contrast */
+    min-width: 0; /* Prevents overflowing on small screens */
+  }
+  .main2 {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    /* gap: 5em; */
+    margin: 20px 50px 70px 50px;
+  }
+  .select {
+    border: 1px solid #007bff;
+    padding: 5px;
+  }
+  .select:focus {
+    outline: none;
+  }
+  .cart {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+    gap: 20px; /* Adjust spacing between items */
+  }
+
+  .cart1 {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    /* transition: transform 0.5s; */
+  }
+  .rating i {
+    color: #ffd700;
+  }
+  .editBtn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 14px;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .editBtn:hover{
+    background-color: rgba(0, 128, 0, 0.607);
+  }
+  .deleteBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 14px;
+    cursor: pointer;
+  }
+  .deleteBtn:hover{
+    background-color: rgba(255, 0, 0, 0.57);
+  }

@@ -34,6 +34,12 @@ const Sidebar = () => {
                         <p>Products</p>
                     </li>
                     <ul>
+                    <Link href={"/allproducts"}>
+                    <li>
+                    <i class="fa-solid fa-plus"style={{ color: "#ffffff" }}></i>
+                        <p>All Products</p>
+                    </li>
+                    </Link>
                     <Link href={"/newproducts"}>
                     <li>
                     <i class="fa-solid fa-plus"style={{ color: "#ffffff" }}></i>
