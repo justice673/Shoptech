@@ -41,7 +41,13 @@
     margin-left: 10px;
     display: none; /* Hide by default */
 }
-
+.user a{
+    color: white;
+    text-decoration: none;
+}
+.user a:hover{
+    color: #00000063;
+}
 .user .menu {
     cursor: pointer;
     position: absolute;

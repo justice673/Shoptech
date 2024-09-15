@@ -16,7 +16,7 @@ const Sidebar = () => {
                 <div className={styles.user}>
                     <div className={styles.title}></div>
                     <i className="fa-solid fa-laptop" style={{fontSize: "25px" , color: "#ffffff"}}></i>
-                    {isSidebarExpanded && <h2>SHOPTECH</h2>}
+                    {isSidebarExpanded && <h2><Link href={"/"}>SHOPTECH</Link></h2>}
                     <div className={styles.menu} onClick={toggleSidebar}>
                         <i className="fa-solid fa-bars" style={{ color: "#ffffff" }}></i>
                     </div>
