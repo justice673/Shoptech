@@ -35,21 +35,22 @@ export default function page() {
               src="/images/MBPT16S-1-removebg-preview.png"
               width={600}
               height={600}
+              alt=""
             />
           </div>
         </div>
         <div className={styles.categories}>
           <div className={styles.mainCategories}>
             <div>
-              <Image src="/images/headset.jpg" width={300} height={300} />
+              <Image src="/images/headset.jpg" width={300} height={300} alt="" />
             </div>
             <div>
               {" "}
-              <Image src="/images/keyboard.png" width={300} height={300} />
+              <Image src="/images/keyboard.png" width={300} height={300} alt="" />
             </div>
             <div>
               {" "}
-              <Image src="/images/monitor.jpg" width={300} height={300} />
+              <Image src="/images/monitor.jpg" width={300} height={300} alt="" />
             </div>
           </div>
         </div>
@@ -57,7 +58,7 @@ export default function page() {
           <h2 className={styles.title}>Featured Products</h2>
           <div className={styles.cart}>
             <div className={styles.cart1}>
-              <Image src="/images/x-box2.jpeg" width={250} height={250} />
+              <Image src="/images/x-box2.jpeg" width={250} height={250} alt="" />
               <h4>X-box series X</h4>
               <p>$499.99</p>
               <div className={styles.rating}>
@@ -73,6 +74,7 @@ export default function page() {
                 src="/images/samsunglappi-1.jpg"
                 width={250}
                 height={250}
+                alt=""
               />
               <h4>Samsung Laptop</h4>
               <p>$369</p>
@@ -85,7 +87,7 @@ export default function page() {
               </div>
             </div>
             <div className={styles.cart1}>
-              <Image src="/images/ps5-1.jpg" width={250} height={250} />
+              <Image src="/images/ps5-1.jpg" width={250} height={250} alt="" />
               <h4>PLay Station 5 Slim</h4>
               <p>$499.99</p>
               <div className={styles.rating}>
@@ -97,7 +99,7 @@ export default function page() {
               </div>
             </div>
             <div className={styles.cart1}>
-              <Image src="/images/iphone14pro-1.jpg" width={250} height={250} />
+              <Image src="/images/iphone14pro-1.jpg" width={250} height={250} alt="" />
               <h4>Iphone 14pro(256gb)</h4>
               <p>$899.99</p>
               <div className={styles.rating}>
@@ -109,7 +111,7 @@ export default function page() {
               </div>
             </div>
             <div className={styles.cart1}>
-              <Image src="/images/jblspeaker-1.jpeg" width={250} height={250} />
+              <Image src="/images/jblspeaker-1.jpeg" width={250} height={250} alt="" />
               <h4>JBL Speaker</h4>
               <p>$325</p>
               <div className={styles.rating}>
@@ -121,7 +123,7 @@ export default function page() {
               </div>
             </div>
             <div className={styles.cart1}>
-              <Image src="/images/macbookair-1.jpg" width={250} height={250} />
+              <Image src="/images/macbookair-1.jpg" width={250} height={250} alt="" />
               <h4>Macbook Air(2024)</h4>
               <p>$1299.99</p>
               <div className={styles.rating}>
@@ -133,7 +135,7 @@ export default function page() {
               </div>
             </div>
             <div className={styles.cart1}>
-              <Image src="/images/iphone15pro-1.jpg" width={250} height={250} />
+              <Image src="/images/iphone15pro-1.jpg" width={250} height={250} alt=""/>
               <h4>Iphone 15pro(256gb)</h4>
               <p>$1199.99</p>
               <div className={styles.rating}>
@@ -145,7 +147,7 @@ export default function page() {
               </div>
             </div>
             <div className={styles.cart1}>
-              <Image src="/images/macbookpro-1.jpg" width={250} height={250} />
+              <Image src="/images/macbookpro-1.jpg" width={250} height={250} alt="" />
               <h4>Macbook Pro(2024)</h4>
               <p>$1399.99</p>
               <div className={styles.rating}>
@@ -162,7 +164,7 @@ export default function page() {
           <h2 className={styles.title}>Latest Products</h2>
           <div className={styles.cart}>
             <div className={styles.cart1}>
-              <Image src="/images/keyboard-1.jpg" width={250} height={250} />
+              <Image src="/images/keyboard-1.jpg" width={250} height={250} alt=""/>
               <h4>HyperX Gmaing Keyboard</h4>
               <p>$39.99</p>
               <div className={styles.rating}>
@@ -174,7 +176,7 @@ export default function page() {
               </div>
             </div>{" "}
             <div className={styles.cart1}>
-              <Image src="/images/monitor-1.jpg" width={250} height={250} />
+              <Image src="/images/monitor-1.jpg" width={250} height={250} alt=""/>
               <h4>Samsung Odyssey OLED</h4>
               <p>$1099.99</p>
               <div className={styles.rating}>
@@ -186,7 +188,7 @@ export default function page() {
               </div>
             </div>{" "}
             <div className={styles.cart1}>
-              <Image src="/images/headset-1.jpg" width={250} height={250} />
+              <Image src="/images/headset-1.jpg" width={250} height={250} alt="" />
               <h4>Razer-BlackShark V2 Pro</h4>
               <p>$199.99</p>
               <div className={styles.rating}>
@@ -198,7 +200,7 @@ export default function page() {
               </div>
             </div>{" "}
             <div className={styles.cart1}>
-              <Image src="/images/ultrawatch-1.jpg" width={250} height={250} />
+              <Image src="/images/ultrawatch-1.jpg" width={250} height={250} alt="" />
               <h4>Apple smart watch Ultra</h4>
               <p>$799.99</p>
               <div className={styles.rating}>
@@ -210,7 +212,7 @@ export default function page() {
               </div>
             </div>{" "}
             <div className={styles.cart1}>
-              <Image src="/images/s24ultra-1.jpg" width={200} height={250} />
+              <Image src="/images/s24ultra-1.jpg" width={200} height={250} alt=""/>
               <h4>Samsung Galaxy S24 Ultra(256gb)</h4>
               <p>$1299.99</p>
               <div className={styles.rating}>
@@ -222,7 +224,7 @@ export default function page() {
               </div>
             </div>{" "}
             <div className={styles.cart1}>
-              <Image src="/images/series9-1.jpg" width={250} height={250} />
+              <Image src="/images/series9-1.jpg" width={250} height={250} alt=""/>
               <h4>Apple Series9 Smart watch</h4>
               <p>$399.99</p>
               <div className={styles.rating}>
@@ -234,7 +236,7 @@ export default function page() {
               </div>
             </div>{" "}
             <div className={styles.cart1}>
-              <Image src="/images/pixel9pro-1.jpg" width={250} height={250} />
+              <Image src="/images/pixel9pro-1.jpg" width={250} height={250} alt=""/>
               <h4>Google Pixel 9pro(128gb)</h4>
               <p>$999.99</p>
               <div className={styles.rating}>
@@ -246,7 +248,7 @@ export default function page() {
               </div>
             </div>{" "}
             <div className={styles.cart1}>
-              <Image src="/images/pixel9-1.jpg" width={250} height={250} />
+              <Image src="/images/pixel9-1.jpg" width={250} height={250} alt=""/>
               <h4>Google Pixel 9(128gb)</h4>
               <p>$799.00</p>
               <div className={styles.rating}>
@@ -265,6 +267,7 @@ export default function page() {
               src="/images/ps5_controller-removebg-preview.png"
               width={320}
               height={320}
+              alt=""
             />
           </div>
           <div className={styles.main3Right}>
@@ -301,7 +304,7 @@ export default function page() {
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
-              <Image src="/images/man1.avif"width={50} height={50}/>
+              <Image src="/images/man1.avif"width={50} height={50} alt=""/>
               <h3>John M.</h3>
            </div>
            <div className={styles.testimonial1}>
@@ -314,7 +317,7 @@ export default function page() {
                 <i class="fa-regular fa-star-half-stroke"></i>
                 <i class="fa-regular fa-star"></i>
               </div>
-              <Image src="/images/woman.avif"width={50} height={50}/>
+              <Image src="/images/woman.avif"width={50} height={50} alt=""/>
                 <h3>Sarah L.</h3>
            </div>
            <div className={styles.testimonial1}>
@@ -327,7 +330,7 @@ export default function page() {
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-regular fa-star-half-stroke"></i>
               </div>
-              <Image src="/images/man2.avif"width={50} height={50}/>
+              <Image src="/images/man2.avif"width={50} height={50} alt=""/>
                <h3>Michael R.</h3>
            </div>
           </div>

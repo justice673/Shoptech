@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import styles from './page.module.css';
 import Sidebar from '@/components/Sidebar/Sidebar';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Page = () => {
@@ -48,7 +49,7 @@ const Page = () => {
               <label className={styles.addPhoto}>
                 {/* Image Preview */}
                 {imagePreview ? (
-                  <img src={imagePreview} alt="Selected preview" className={styles.previewImage} />
+                  <Image src={imagePreview} alt="Selected preview" className={styles.previewImage} />
                 ) : (
                   <div>
                     <i className="fa-solid fa-upload" style={{ color: "#d1d5db3", marginRight: "6px" }}></i>
