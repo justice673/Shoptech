@@ -323,7 +323,7 @@ export default function page() {
            </div>
            <div className={styles.testimonial1}>
            <i class="fa-solid fa-quote-left" style={{ fontSize: '34px' }}></i>
-            <p>I had an amazing experience shopping on Shoptech! The website is not only visually appealing, but it&apos;s also really intuitive. I was able to find my new PS5 controller in minutes, and the checkout process was seamless. Plus, the variety of products they offer is impressive! I'll definitely be coming back for more tech accessories</p>
+            <p>I had an amazing experience shopping on Shoptech! The website is not only visually appealing, but it&apos;s also really intuitive. I was able to find my new PS5 controller in minutes, and the checkout process was seamless. Plus, the variety of products they offer is impressive! I&apos;ll definitely be coming back for more tech accessories</p>
             <div className={styles.rating}>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
